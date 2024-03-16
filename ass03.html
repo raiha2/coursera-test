@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>assignment 03</title>
+	<!-- <script src="js/ass03.js"></script> -->
+
+	<script >
+		
+		const names = ["John", "Alice", "James", "Jennifer", "Emily", "Joseph"];
+
+		// Loop through the names array
+		for (let i = 0; i < names.length; i++) {
+		 const name = names[i];
+		 const firstLetter = name.charAt(0).toUpperCase();  // Get first letter in uppercase
+
+		 if (firstLetter === "J") {
+		   console.log(`Goodbye J${name.slice(1)}`);  // Correctly handle names starting with 'j' or 'J'
+		 } else {
+		   console.log(`Hello ${name}`);
+		 }
+		}
+	</script>
+</head>
+<body>
+   <h2>Assignment module 03...</h2>
+   <h4>Check the CONSOLE for the solution:)</h4>
+</body>
+</html>
